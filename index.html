@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 40px;
+        }
+        .bg_img{
+            background-color: antiquewhite;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+
+        }
+        .line {
+            border: 1px solid rgb(14, 13, 13);
+            width: 0;
+            height: 100px;
+            margin: 30px;
+        }
+        .col {
+            display: flex;
+        }
+        .col img {
+            width: 150px;
+        }
+        .home{
+            padding: 0 10px;
+        }
+        .home-page {
+            display: flex;
+            justify-content: space-between;
+        }
+        .home-page-1{
+            display: flex;
+            justify-content: space-between;
+            padding:0 20px;
+        }
+        .visa-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .visa-card{
+            display: flex;
+        }
+        .visa-card p {
+            margin: 40px;
+            height: 140px;
+        }
+        .visa-card h2 {
+            margin-top: 100px;
+        }
+        .visa-card img {
+            width: 160px;
+            height: 160px;
+            margin-top: 30px;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer-image {
+            display: flex;
+            
+        }
+        .best-buy{
+            margin-top: 30px;
+        width: 180px; 
+        height: 100px;
+        }
+        .geek{
+            width: 180px;
+            height: 170px;
+        }
+        @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            body {
+                padding: 0;
+
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                background-color: antiquewhite;
+                padding: 10px;
+
+            }
+            .col img {
+                width: 50px;
+                height: 60px;
+                margin-right: 0px;
+                margin: 0px;
+                margin-left: 0px;
+            }
+            .header-left-1 {
+                line-height: 4px;
+                margin-top: 8px;
+            }
+            .header-right-1{
+                line-height: 4px;
+                margin-top: 8px;
+            }
+            .header-left-1 h2{
+                font-size: 12px;
+            }
+            .header-left-1 h1{
+                font-size: 15px;
+            }
+            .header-right-1 h3{
+                font-size: 10px;
+            }
+            .line {
+                border: 1px solid rgb(26, 24, 24);
+                width: 0;
+                height: 30px;
+                margin: 12px;
+            }
+            .home{
+                background-color: antiquewhite;
+                
+            }
+            .home-page{
+                display: flex;
+                justify-content: space-between;
+            }
+            .home-details{
+                font-size: 10px;
+            }
+            .home-img img{
+                width: 120px;
+                height: 150px;
+            }
+            
+            .home-page-1{
+                display: flex;
+                justify-content: space-between;
+            }
+            .home-page-1 h2{
+                font-size: 10px;
+            line-height: 12px;
+            padding: 0px;
+            }
+            .customer h2{
+                text-align: right;
+            }
+
+            .home-page p{
+                height: 15px;
+            }
+            .home-page h3{
+                font-size: 10px;
+                color: aqua;
+            }
+
+            .visa-container{
+                display: flex;
+                justify-content: space-between;
+                
+            }
+            .visa-card{
+                padding: 0px;
+            }
+
+            .visa-card img {
+                width: 20px;
+                height: 20px;
+            
+            }
+            .visa-card p {
+                margin: 8px;
+                height: 20px;
+                margin-top: 30px;
+            }
+            .visa-card h2 {
+                font-size: 10px;
+                margin-top: 36px;
+                color:rgb(45, 195, 195);
+            }
+            .visa-card h3 {
+                font-size: 12px;
+                margin-top: 34px;
+                text-align: right;
+            }
+
+            .visa-text h2{
+                font-size: 12px;
+                padding: 20px;
+            }
+            .visa-text span{
+                color: red;
+            } 
+            .footer{
+                display: flex;
+                justify-content: space-between;
+            } 
+            .footer-image {
+                display: flex;
+                align-items: center;
+            }
+            .best-buy{
+            width: 50px; 
+            height: 40px;
+            margin-bottom: 25px;
+            }
+            .geek{
+                width: 50px;
+                height: 60px;
+            }
+            .footer-text{
+                width: 200px;
+                line-height: 12px;
+            }
+            .footer-text h2{
+            font-size: 10px;
+            line-height: 10px;
+            }
+            .footer-text span{
+                color: red;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="bg_img">
+        <header class="header">
+            <div class="col">
+                <img src="./image/328691770_6309497522416656_3426449859805906817_n.png" alt="">
+                <p class="line"></p>
+                <div class="header-left-1">
+                    <h2>BEST BUY</h2>
+                    <h1>Membership</h1>
+                </div>
+            </div>
+            <div class="header-right-1">
+                <h3>Total: $417.00</h3>
+                <h3>23,January 2023</h3>
+            </div>
+        </header>
+    
+        <section class="home">
+            <div class="home-page">
+                <div class="home-details">
+                    <h1>GeekSquad Totaltech <small class="tm">TM</small> One Year Subscription Renewal</h1>
+                    <p>Your Subscription to GEEK SQUAD will be renewed today, If you wish to disabled the auto-renewal
+                        service
+                        Call now: +1 (808) 272-814</p>
+                </div>
+                <div class="home-img">
+                    <img src="./image/hand.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section>
+        <div class="home-page-1">
+            <div>
+                <h1>Total:</h1>
+            </div>
+            <div>
+                <h1>$417.00</h1>
+            </div>
+        </div>
+        <hr>
+
+        <div class="home-page-1">
+            <div>
+                <h2>Customer ID:</h2>
+                <h2>Ref No:</h2>
+                <h2>Description / Plan</h2>
+            </div>
+            <div class="customer">
+                <h2>665536781</h2>
+                <h2>872662YWUWH778</h2>
+                <h2>Geek Squad Totaltech <span>TM</span>(One Year Subscription)</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="home-page-1">
+            <div>
+                <h2>Sales Tax:</h2>
+            </div>
+            <div>
+                <h2>$0.00</h2>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="">
+        <div class="visa-container">
+            <div class="visa-card">
+                <img src="./image/download.png 3" alt="">
+                <img src="./image/download.png 2" alt="">
+                <img src="./image/download.jpg 3" alt="">
+                <img src="./image/download.jpg" alt="">
+                <p class="line"></p>
+                <h2>Payment Options</h2>
+            </div>
+
+            <div class="visa-card">
+                <h3>totaltech</h3>
+            </div>
+        </div>
+
+
+        <div class="visa-text">
+            <h2>
+                If you did not authorise this change, you have 24 hours to do so. Please contact our customer service to
+                cancel and receive an immediate refund for your<br> annual subscription :
+                <span> +1 (808)272-8714</span> <br>
+                <br>
+
+                This email is sent from an account we use for sending messages only. So if you want to contact us, don't
+                reply to this email - we won't get your response instead, Call us.
+            </h2>
+        </div>
+        <br>
+        <hr>
+    </section>
+
+    <section class="footer">
+        <div class="footer-text">
+            <h2>Thank you very much</h2>
+            <h2>BEST BUY</h2>
+            <h2>GEEK SQUAD RENEWAL TEAM</h2>
+            <h2>Customer Support :  <br><span> +1 (808)272-8714</span></h2>
+        </div>
+        
+        <div class="footer-image">
+            <img class="best-buy" src="./image/best.png" alt="">
+            <p class="line"></p>
+            <img class="geek" src="./image/328691770_6309497522416656_3426449859805906817_n.png" alt="">
+        </div>
+    </section>
+   
+</body>
+
+</html>
